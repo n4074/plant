@@ -1,0 +1,180 @@
+Build profile: -w ghc-8.4.4 -O1
+In order, the following will be built:
+ - plant-module-0.1.0.0 (lib) (first run)
+creating /Users/carl/Projects/plant/dist-newstyle/build
+creating /Users/carl/Projects/plant/dist-newstyle/tmp
+creating
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0
+creating
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/cache
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","configure","--verbose=2","--builddir=/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0","--ghc","--prefix=/Users/carl/.cabal","--bindir=/Users/carl/.cabal/bin","--libdir=/Users/carl/.cabal/lib/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0-inplace","--libsubdir=","--dynlibdir=/Users/carl/.cabal/lib/x86_64-osx-ghc-8.4.4","--libexecdir=/Users/carl/.cabal/libexec/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0","--libexecsubdir=","--datadir=/Users/carl/.cabal/share/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0","--datasubdir=","--docdir=/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0","--htmldir=/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0/html","--haddockdir=/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0/html","--sysconfdir=/Users/carl/.cabal/etc","--enable-library-vanilla","--disable-library-profiling","--enable-shared","--disable-static","--disable-executable-dynamic","--disable-profiling","--profiling-detail=default","--library-profiling-detail=default","--enable-optimization","--disable-debug-info","--enable-library-for-ghci","--disable-split-sections","--disable-split-objs","--disable-executable-stripping","--disable-library-stripping","--package-db=clear","--package-db=global","--package-db=/Users/carl/.cabal/store/ghc-8.4.4/package.db","--package-db=/Users/carl/Projects/plant/dist-newstyle/packagedb/ghc-8.4.4","--cid=plant-module-0.1.0.0-inplace","--extra-prog-path=/Users/carl/.cabal/bin","--dependency=base=base-4.11.1.0","--dependency=plant-core=plant-core-0.1.0.0-inplace","--dependency=crypto-rng=crypt-rng-0.1.0.2-516b39cd","--disable-coverage","--exact-configuration","--with-ghc=/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc","--with-ghc-pkg=/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc-pkg","--ghc-option=-hide-all-packages","lib:plant-module"]
+/nix/store/j644hcjv03pnd7qxhmzjf510xbi7ib2g-cabal-install-2.2.0.0/bin/cabal
+act-as-setup --build-type=Simple -- configure --verbose=2
+--builddir=/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0
+--ghc --prefix=/Users/carl/.cabal --bindir=/Users/carl/.cabal/bin
+--libdir=/Users/carl/.cabal/lib/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0-inplace
+--libsubdir= --dynlibdir=/Users/carl/.cabal/lib/x86_64-osx-ghc-8.4.4
+--libexecdir=/Users/carl/.cabal/libexec/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0
+--libexecsubdir=
+--datadir=/Users/carl/.cabal/share/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0
+--datasubdir=
+--docdir=/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0
+--htmldir=/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0/html
+--haddockdir=/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0/html
+--sysconfdir=/Users/carl/.cabal/etc --enable-library-vanilla
+--disable-library-profiling --enable-shared --disable-static
+--disable-executable-dynamic --disable-profiling --profiling-detail=default
+--library-profiling-detail=default --enable-optimization --disable-debug-info
+--enable-library-for-ghci --disable-split-sections --disable-split-objs
+--disable-executable-stripping --disable-library-stripping --package-db=clear
+--package-db=global --package-db=/Users/carl/.cabal/store/ghc-8.4.4/package.db
+--package-db=/Users/carl/Projects/plant/dist-newstyle/packagedb/ghc-8.4.4
+--cid=plant-module-0.1.0.0-inplace --extra-prog-path=/Users/carl/.cabal/bin
+--dependency=base=base-4.11.1.0
+--dependency=plant-core=plant-core-0.1.0.0-inplace
+--dependency=crypto-rng=crypt-rng-0.1.0.2-516b39cd --disable-coverage
+--exact-configuration
+--with-ghc=/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc
+--with-ghc-pkg=/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc-pkg
+--ghc-option=-hide-all-packages lib:plant-module
+Using Parsec parser
+Configuring library for plant-module-0.1.0.0..
+Dependency base ==4.11.1.0: using base-4.11.1.0
+Dependency crypto-rng ==0.1.0.2: using crypto-rng-0.1.0.2
+Dependency plant-core ==0.1.0.0: using plant-core-0.1.0.0
+Source component graph: component lib
+Configured component graph:
+    component plant-module-0.1.0.0-inplace
+        include base-4.11.1.0
+        include plant-core-0.1.0.0-inplace
+        include crypt-rng-0.1.0.2-516b39cd
+Linked component graph:
+    unit plant-module-0.1.0.0-inplace
+        include base-4.11.1.0
+        include plant-core-0.1.0.0-inplace
+        include crypt-rng-0.1.0.2-516b39cd
+        CommModule=plant-module-0.1.0.0-inplace:CommModule
+Ready component graph:
+    definite plant-module-0.1.0.0-inplace
+        depends base-4.11.1.0
+        depends plant-core-0.1.0.0-inplace
+        depends crypt-rng-0.1.0.2-516b39cd
+Using Cabal-2.2.0.1 compiled by ghc-8.4
+Using compiler: ghc-8.4.4
+Using install prefix: /Users/carl/.cabal
+Executables installed in: /Users/carl/.cabal/bin
+Libraries installed in:
+/Users/carl/.cabal/lib/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0-inplace
+Dynamic Libraries installed in: /Users/carl/.cabal/lib/x86_64-osx-ghc-8.4.4
+Private executables installed in:
+/Users/carl/.cabal/libexec/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0
+Data files installed in:
+/Users/carl/.cabal/share/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0
+Documentation installed in:
+/Users/carl/.cabal/share/doc/x86_64-osx-ghc-8.4.4/plant-module-0.1.0.0
+Configuration files installed in: /Users/carl/.cabal/etc
+No alex found
+Using ar found on system at:
+/nix/store/s0rd1fic9x9nb9vwv0lymlmjq6w11f7q-cctools-binutils-darwin/bin/ar
+No c2hs found
+No cpphs found
+No doctest found
+Using gcc version 4.2.1 found on system at:
+/nix/store/r0a1cdzxfpycsi4bh596izmkqxij09fv-clang-wrapper-5.0.2/bin/cc
+Using ghc version 8.4.4 given by user at:
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc
+Using ghc-pkg version 8.4.4 given by user at:
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc-pkg
+No ghcjs found
+No ghcjs-pkg found
+No greencard found
+Using haddock version 2.20.0 found on system at:
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/haddock
+No happy found
+Using haskell-suite found on system at: haskell-suite-dummy-location
+Using haskell-suite-pkg found on system at: haskell-suite-pkg-dummy-location
+No hmake found
+Using hpc version 0.67 found on system at:
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/hpc
+Using hsc2hs version 0.68.3 found on system at:
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/hsc2hs
+No hscolour found
+No jhc found
+Using ld found on system at:
+/nix/store/scphwxvahxj4v5mimijvpcqnf41ky5yq-cctools-binutils-darwin-wrapper/bin/ld
+No lhc found
+No lhc-pkg found
+No pkg-config found
+Using runghc version 8.4.4 found on system at:
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/runghc
+Using strip found on system at:
+/nix/store/s0rd1fic9x9nb9vwv0lymlmjq6w11f7q-cctools-binutils-darwin/bin/strip
+Using tar found on system at:
+/nix/store/12qqz3gmpyignhz1m2fqmr962b78jf9m-gnutar-1.30/bin/tar
+No uhc found
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","build","--verbose=2","--builddir=/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0"]
+/nix/store/j644hcjv03pnd7qxhmzjf510xbi7ib2g-cabal-install-2.2.0.0/bin/cabal
+act-as-setup --build-type=Simple -- build --verbose=2
+--builddir=/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0
+Component build order: library
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc-pkg init /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/package.conf.inplace
+creating
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build
+creating
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/autogen
+creating
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/autogen
+Preprocessing library for plant-module-0.1.0.0..
+Building library for plant-module-0.1.0.0..
+creating
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc --make -fbuilding-cabal-package -O -static -dynamic-too -dynosuf dyn_o -dynhisuf dyn_hi -outputdir /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build -odir /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build -hidir /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build -stubdir /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build -i -i/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build -isrc -i/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/autogen -i/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/global-autogen -I/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/autogen -I/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/global-autogen -I/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build -optP-include -optP/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/autogen/cabal_macros.h -this-unit-id plant-module-0.1.0.0-inplace -hide-all-packages -Wmissing-home-modules -no-user-package-db -package-db /Users/carl/.cabal/store/ghc-8.4.4/package.db -package-db /Users/carl/Projects/plant/dist-newstyle/packagedb/ghc-8.4.4 -package-db /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/package.conf.inplace -package-id base-4.11.1.0 -package-id plant-core-0.1.0.0-inplace -package-id crypt-rng-0.1.0.2-516b39cd -XHaskell2010 CommModule -staticlib -shared -dynamic -rdynamic -fwhole-archive-hs-libs -hide-all-packages
+[1 of 1] Compiling CommModule       ( src/CommModule.hs, /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/CommModule.o )
+Linking a.out ...
+Linking...
+[(DefiniteUnitId (DefUnitId {unDefUnitId = UnitId
+"base-4.11.1.0"}),DefaultRenaming),(DefiniteUnitId (DefUnitId {unDefUnitId =
+UnitId "plant-core-0.1.0.0-inplace"}),DefaultRenaming),(DefiniteUnitId
+(DefUnitId {unDefUnitId = UnitId
+"crypt-rng-0.1.0.2-516b39cd"}),DefaultRenaming)]
+/nix/store/s0rd1fic9x9nb9vwv0lymlmjq6w11f7q-cctools-binutils-darwin/bin/ar -r -s /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/objs-17426/libHSplant-module-0.1.0.0-inplace.a /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/CommModule.o
+/nix/store/scphwxvahxj4v5mimijvpcqnf41ky5yq-cctools-binutils-darwin-wrapper/bin/ld -x -r -o /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/HSplant-module-0.1.0.0-inplace.o /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/CommModule.o
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc -shared -dynamic '-dynload deploy' -optl-Wl,-rpath,/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-core-0.1.0.0/build -optl-Wl,-rpath,/Users/carl/.cabal/store/ghc-8.4.4/lib -optl-Wl,-rpath,/nix/store/w05jizfhhvwi5br0x1q32s1kf3r9hg0z-ghc-8.4.4/lib/ghc-8.4.4/rts '-optl-Wl,-rpath,/nix/store/c3gsacyfdnfjh0f7d4jjq6zwy6fp8mgy-libc++-5.0.2/lib' '-optl-Wl,-rpath,/nix/store/alyz9ln1q8pbvckpm8vkngaxspdy71c3-libc++abi-5.0.2/lib' -optl-Wl,-rpath,/nix/store/7hrdjn3ci8sq3wmcmgz5hqphwacrqygi-compiler-rt-5.0.2/lib -optl-Wl,-rpath,/nix/store/8s098rvl7pa9z63g9gim5hwimm5c5kc4-ncurses-6.1-20190112/lib -optl-Wl,-rpath,/nix/store/8v10j55nzy8h20b514x2wvr5qkxckbb7-gmp-6.1.2/lib -optl-Wl,-rpath,/nix/store/bw0amn9q9cap1n8gh5z57snwxayp7s6f-libiconv-osx-10.11.6/lib -optl-Wl,-rpath,/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/lib/links -this-unit-id plant-module-0.1.0.0-inplace -hide-all-packages -no-auto-link-packages -no-user-package-db -package-db /Users/carl/.cabal/store/ghc-8.4.4/package.db -package-db /Users/carl/Projects/plant/dist-newstyle/packagedb/ghc-8.4.4 -package-db /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/package.conf.inplace -package-id base-4.11.1.0 -package-id plant-core-0.1.0.0-inplace -package-id crypt-rng-0.1.0.2-516b39cd /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/CommModule.dyn_o -o /Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build/libHSplant-module-0.1.0.0-inplace-ghc8.4.4.dylib -hide-all-packages
+Using self-exec internal setup method with build-type Simple and args:
+["act-as-setup","--build-type=Simple","--","register","--verbose=2","--builddir=/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0","--inplace","--gen-pkg-config=/Users/carl/Projects/plant/dist-newstyle/tmp/package-registration--17370/pkgConf"]
+/nix/store/j644hcjv03pnd7qxhmzjf510xbi7ib2g-cabal-install-2.2.0.0/bin/cabal
+act-as-setup --build-type=Simple -- register --verbose=2
+--builddir=/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0
+--inplace
+--gen-pkg-config=/Users/carl/Projects/plant/dist-newstyle/tmp/package-registration--17370/pkgConf
+name: plant-module
+version: 0.1.0.0
+id: plant-module-0.1.0.0-inplace
+key: plant-module-0.1.0.0-inplace
+license: BSD-3-Clause
+abi: inplace
+exposed: True
+exposed-modules:
+CommModule
+import-dirs:
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build
+library-dirs:
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build
+dynamic-library-dirs:
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/build
+data-dir: /Users/carl/Projects/plant/plant-module
+hs-libraries: HSplant-module-0.1.0.0-inplace
+depends:
+base-4.11.1.0 plant-core-0.1.0.0-inplace crypt-rng-0.1.0.2-516b39cd
+abi-depends: base-4.11.1.0=a319b37f2eb2bd1bf9f26465a438aec5
+plant-core-0.1.0.0-inplace=inplace
+crypt-rng-0.1.0.2-516b39cd=a42b0166e2a1def56fc77332bcb17c9f
+haddock-interfaces:
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/doc/html/plant-module/plant-module.haddock
+haddock-html:
+/Users/carl/Projects/plant/dist-newstyle/build/x86_64-osx/ghc-8.4.4/plant-module-0.1.0.0/doc/html/plant-module
+Creating package registration file:
+/Users/carl/Projects/plant/dist-newstyle/tmp/package-registration--17370/pkgConf
+/nix/store/nysx1kcniry3nxl4bvxh2p89ch6sl1kh-ghc-8.4.4-with-packages/bin/ghc-pkg update - --global --no-user-package-db '--package-db=/Users/carl/.cabal/store/ghc-8.4.4/package.db' '--package-db=/Users/carl/Projects/plant/dist-newstyle/packagedb/ghc-8.4.4'
