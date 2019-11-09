@@ -1,0 +1,4 @@
+dist/*
+dist-newstyle/*
+testing/*
+.ghc.environment.x86_64-darwin-8.4

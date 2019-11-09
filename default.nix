@@ -2,40 +2,25 @@ let
   _overlay = self: super: {
     haskell = super.haskell // {
       compiler = super.haskell.compiler // {
-        ghc844 = (super.haskell.compiler.ghc844.override({
+        ghc844 = (super.haskell.compiler.ghc844
+          .override({
             enableRelocatedStaticLibs = true;
-            })).overrideAttrs(_: {
-               preConfigure = builtins.trace "ghc" _.preConfigure + ''
-                echo wat2
-                sleep 100
-                cp mk/build.mk /tmp
-                rm mk/build.mk
-                exit
+#            enableIntegerSimple = true;
+          }))
+          .overrideAttrs(_: {
+            # not necessary but leaving here as an example
+            preConfigure = builtins.trace "preConf" _.preConfigure + ''
+              pwd
               '';
-            });
+          });
       };
       packages = super.haskell.packages // {
         ghc844 = super.haskell.packages.ghc844.override (old: {
           overrides = pkgs.lib.composeExtensions (old.overrides or (_: _: {})) (hself: hsuper: {
             mkDerivation = args: hsuper.mkDerivation (args // {
-                configureFlags = builtins.trace "configureFlags" (args.configureFlags or []) ++ ["--ghc-option=-fPIC"];
+                configureFlags = (args.configureFlags or []) ++ ["--ghc-option=-fPIC"];
             });
-#hsuper.ghc.overrideAttrs(_: {
-#              enableShared = false;
-#              preConfigure = builtins.trace "ghc" _.preConfigure + ''
-#                echo wat
-#                pwd
-#                ls
-#                sleep 100
-#                cp mk/build.mk /tmp
-#                rm mk/build.mk
-#                exit
-#              '';
-#
-#            }).override({
-#              overrides = _:_: { enableRelocatedStaticLibs = true; };
-#            });
-          });
+         });
         });
       };
     };
